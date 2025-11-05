@@ -369,7 +369,7 @@ def draw_sidebar():
     #         )
 
 # https://github.com/elonchennz-cell/tetris
-
+# second test
 
 def draw_all():
     """Draw everything and flip the screen!"""
