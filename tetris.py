@@ -362,14 +362,16 @@ def draw_sidebar():
     # - Show title "Tetris", score, lines, and speed number
     # - Show "Next:" and draw a small preview of the next piece (rotation 0)
     # - If game_over, show "Game Over" and "Press R to Restart"
-    # pygame.draw.rect(
+    # pygame.draw.re
     #     screen,
     #     BLACK,
     #     (GRID_W,0)
     #         )
-
-# https://github.com/elonchennz-cell/tetris
-# second test
+    # game_font = pygame.font.SysFont("Arial", 24)
+    # text = game_font.render("Moikka!", True, (255, 0, 0))
+    #display.blit(text, (100, 50))
+    text = font.render("TETRIS", True,(255, 255, 255))
+    screen.blit(text,(GRID_W,0))
 
 def draw_all():
     """Draw everything and flip the screen!"""
