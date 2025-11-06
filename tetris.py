@@ -371,7 +371,7 @@ def draw_sidebar():
     # text = game_font.render("Moikka!", True, (255, 0, 0))
     #display.blit(text, (100, 50))
     text = font.render("TETRIS", True,(255, 255, 255))
-    screen.blit(text,(GRID_W,0))
+    screen.blit(text,(GRID_W + 100,0))
 
 def draw_all():
     """Draw everything and flip the screen!"""
